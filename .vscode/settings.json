@@ -1,0 +1,12 @@
+{
+    // ... keep existing config
+    "triggerTaskOnSave.tasks": {
+        "restart backend": [
+            "src/**/*"
+        ]
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true
+    },
+}
